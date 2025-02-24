@@ -5,10 +5,16 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    &::-webkit-scrollbar {
+      display: none; /* Chrome, Safari, Opera */
+    }
   }
 
   html {
     font-size: 16px;
+    scroll-behavior: smooth;
     
     @media (max-width: ${props => props.theme.breakpoints.md}) {
       font-size: 14px;

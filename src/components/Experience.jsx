@@ -150,13 +150,12 @@ const Achievement = styled(motion.li)`
 const Experience = () => {
   const experiences = [
     {
-      company: "Walmart",
-      logo: "https://wallpapers.com/images/hd/walmart-retail-company-pu665905rh88gnnp.jpg",
-      role: "Software Engineer 3",
-      duration: "March 2025 - Present",
+      company: "Turing",
+      logo: "https://logowik.com/content/uploads/images/turing5692.logowik.com.webp",
+      role: "LLM - AI Reasoning Engineer (Freelance)",
+      duration: "Feb 2025 - Present",
       achievements: [
-        "Just started working here!",
-        "Working as part of the Sellers Marketplace team."]
+        "Just started working here!"]
     },
     {
       company: "TraceLink",

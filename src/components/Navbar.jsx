@@ -1,6 +1,15 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
+
+const textFill = keyframes`
+  0% {
+    background-position: -500px 0;
+  }
+  100% {
+    background-position: 500px 0;
+  }
+`;
 
 const Nav = styled.nav`
   position: fixed;
@@ -25,7 +34,21 @@ const NavContainer = styled.div`
 const Logo = styled.a`
   font-size: 1.5rem;
   font-weight: bold;
-  color: ${props => props.theme.colors.text};
+  background: linear-gradient(
+    to right,
+    ${props => props.theme.colors.accent} 50%,
+    ${props => props.theme.colors.text} 50%
+  );
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: ${textFill} 555s linear infinite;
+  transition: all 11s ease;
+
+  &:hover {
+    background-position: right center;
+  }
 `;
 
 const MobileMenuButton = styled.button`
@@ -88,6 +111,7 @@ const ResumeButton = styled(motion.a)`
   &:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 15px rgba(112, 0, 255, 0.3);
+    background-color: white;
   }
 `;
 

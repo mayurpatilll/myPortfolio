@@ -15,4 +15,6 @@ const ProgressBar = styled(motion.div)`
 const ScrollProgress = () => {
   const { scrollYProgress } = useScroll();
   return <ProgressBar style={{ scaleX: scrollYProgress }} />;
-}; 
+};
+
+export default ScrollProgress; 

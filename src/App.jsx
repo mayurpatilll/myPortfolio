@@ -8,12 +8,14 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
+import ScrollProgress from './components/ScrollProgress';
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
       <Navbar />
+      <ScrollProgress />
       <Hero />
       <About />
       <Experience />
