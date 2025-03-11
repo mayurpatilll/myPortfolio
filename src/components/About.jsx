@@ -102,7 +102,7 @@ const About = () => {
             implementing high-impact features that enhance user experience.
           </p>
           <p>
-            With experience at leading tech companies like TraceLink and Amazon, I've developed a strong foundation in full-stack development and occasionally engage in competitive programming.
+            With experience at leading tech companies like Amazon, Walmart and TraceLink, I've developed a strong foundation in full-stack development and occasionally engage in competitive programming.
           </p>
         </AboutContent>
         <ProfileImageContainer
