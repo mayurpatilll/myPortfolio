@@ -162,7 +162,7 @@ const Experience = () => {
     },
     {
       company: "TraceLink",
-      logo: "https://x.com/TraceLink/photo",
+      logo: "https://www.credly.com/org/tracelink",
       role: "Software Engineer",
       duration: "April 2023 - Jan 2025",
       achievements: [
