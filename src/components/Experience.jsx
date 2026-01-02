@@ -155,14 +155,14 @@ const Experience = () => {
       role: "Software Engineer III",
       duration: "Mar 2025 - Present",
       achievements: [
-        "Developed and deployed an automated data pipeline to track and monitor 15+ fraud prevention strategies for Walmart Marketplace sellers, enabling seamless data flow across services and automated reporting via email.",
-        "Optimized end-user productivity by 99% by engineering a multi-search feature for brand portal that consolidated a 140 click manual workflow in single action for bulk submissions.",
-        "Eliminated a critical operational bottleneck by implementing real-time backend URL validation and a Kafka based feedback loop, achieving a 0% incident rate and proactive alerting for errored payloads."
+        "Built an automated data pipeline to monitor 15+ fraud prevention strategies for Walmart Marketplace sellers, enabling seamless data flow and automated reporting via email.",
+        "Boosted end-user productivity by 99% by building a multi-search feature that reduced a 140-click workflow to a single action.",
+        "Eliminated a critical bottleneck by adding real-time URL validation and a Kafka feedback loop, achieving 0% incidents."
       ]
     },
     {
       company: "TraceLink",
-      logo: "https://logo.clearbit.com/tracelink.com",
+      logo: "https://x.com/TraceLink/photo",
       role: "Software Engineer",
       duration: "April 2023 - Jan 2025",
       achievements: [
